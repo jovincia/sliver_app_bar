@@ -27,6 +27,11 @@ class HomePage extends StatelessWidget {
                 ),
             ),
             expandedHeight: 200,
+            flexibleSpace: FlexibleSpaceBar(
+              background: Container(
+                color: MainColors.brown1,
+              ),
+            ),
           ),
           //sliver Items
           SliverToBoxAdapter(
