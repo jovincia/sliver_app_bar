@@ -19,17 +19,18 @@ class HomePage extends StatelessWidget {
               Icons.menu,
               color: MainColors.white,
             ),
-            title: Text(
-              "M A D E B Y D A N I ♥",
-              style: GoogleFonts.rajdhani(
-                color: MainColors.white,
-                fontSize:30,
-                ),
-            ),
             expandedHeight: 200,
+            floating: true,
             flexibleSpace: FlexibleSpaceBar(
               background: Container(
                 color: MainColors.brown1,
+              ),
+              title: Text(
+                "M A D E B Y D A N I ♥",
+                style: GoogleFonts.rajdhani(
+                  color: MainColors.white,
+                  fontSize: 30,
+                ),
               ),
             ),
           ),
@@ -46,20 +47,20 @@ class HomePage extends StatelessWidget {
               ),
             ),
           ),
-                    SliverToBoxAdapter(
+          SliverToBoxAdapter(
             child: Padding(
               padding: const EdgeInsets.all(70.0),
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(20),
                 child: Container(
-                  height:250,
+                  height: 250,
                   //width: 400,
                   color: MainColors.brownCoffeeMilk,
                 ),
               ),
             ),
           ),
-                    SliverToBoxAdapter(
+          SliverToBoxAdapter(
             child: Padding(
               padding: const EdgeInsets.all(70.0),
               child: ClipRRect(
@@ -71,7 +72,6 @@ class HomePage extends StatelessWidget {
               ),
             ),
           )
-
         ],
       ),
     );
