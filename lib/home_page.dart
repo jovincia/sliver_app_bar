@@ -20,7 +20,8 @@ class HomePage extends StatelessWidget {
               color: MainColors.white,
             ),
             expandedHeight: 200,
-            floating: true,
+            floating: false,
+            pinned: true,
             flexibleSpace: FlexibleSpaceBar(
               background: Container(
                 color: MainColors.brown1,
@@ -29,7 +30,7 @@ class HomePage extends StatelessWidget {
                 "M A D E B Y D A N I ♥",
                 style: GoogleFonts.rajdhani(
                   color: MainColors.white,
-                  fontSize: 30,
+                  fontSize: 20,
                 ),
               ),
             ),
