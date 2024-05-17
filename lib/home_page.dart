@@ -72,7 +72,43 @@ class HomePage extends StatelessWidget {
                 ),
               ),
             ),
-          )
+          ),
+              SliverToBoxAdapter(
+            child: Padding(
+              padding: const EdgeInsets.all(70.0),
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(20),
+                child: Container(
+                  height: 250,
+                  color: MainColors.brownCoffeeMilk,
+                ),
+              ),
+            ),
+          ),
+              SliverToBoxAdapter(
+            child: Padding(
+              padding: const EdgeInsets.all(70.0),
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(20),
+                child: Container(
+                  height: 250,
+                  color: MainColors.brownCoffeeMilk,
+                ),
+              ),
+            ),
+          ),
+              SliverToBoxAdapter(
+            child: Padding(
+              padding: const EdgeInsets.all(70.0),
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(20),
+                child: Container(
+                  height: 250,
+                  color: MainColors.brownCoffeeMilk,
+                ),
+              ),
+            ),
+          ),
         ],
       ),
     );
